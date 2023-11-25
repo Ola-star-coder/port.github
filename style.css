@@ -320,7 +320,8 @@ body {
     line-height: 25px;
     letter-spacing: 1px;
     color: #fbf8f8;
-    font-family: cursive;
+    font-family:  'Poppins', sans-serif;
+    font-weight:600;
 }
 
 .service-content:hover {
