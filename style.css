@@ -108,7 +108,7 @@ body {
 
 .container p {
     color: #f0d000;
-    font-family: 'Poppins', sans-serif;
+    font-family: cursive;
     letter-spacing: 2px;
     line-height: 30px;
 }
@@ -922,7 +922,7 @@ textarea:valid~label {
     .container p {
         color: #f0d000;
         margin-top: 10px;
-        font-family: 'Poppins', sans-serif;
+        font-family: cursive;
         letter-spacing: 2px;
         line-height: 20px;
         text-align: center;
@@ -1068,7 +1068,7 @@ textarea:valid~label {
     .container p {
         color: #f0d000;
         margin-top: 10px;
-        font-family: 'Poppins', sans-serif;
+        font-family: cursive;
         letter-spacing: 2px;
         line-height: 25px;
         text-align: center;
