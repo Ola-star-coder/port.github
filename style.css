@@ -108,7 +108,7 @@ body {
 
 .container p {
     color: #f0d000;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     line-height: 30px;
 }
