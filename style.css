@@ -334,6 +334,60 @@ body {
     color: #e3e2e2;
 }
 
+#projets {
+    width: 100%;
+    height: auto;
+}
+
+.project {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.project-text {
+    flex-basis: 50%;
+}
+
+.project button {
+    margin-left: 30px;
+    width: 90%;
+    border: 1px solid #48f000;
+}
+
+.project-text h2 {
+    font-size: 45px;
+    font-family: 'Sofia',
+        cursive;
+}
+
+.project-text h3 {
+    font-size: 27px;
+    margin: 20px 0px;
+}
+
+.project-text p {
+    font-size: 16px;
+    margin: auto;
+    text-align: left;
+    line-height: 40px;
+}
+
+.project-img {
+    flex-basis: 50%;
+}
+
+.project-img img {
+    width: 100%;
+    padding: 40px 0px;
+    cursor: pointer;
+    border: 6px solid rgb(29, 23, 23);
+}
+
 #billing {
     margin-top: 40px;
     width: 100%;
@@ -556,59 +610,6 @@ body {
     transform: scale(1.05);
 }
 
-#contact {
-    width: 100%;
-    height: auto;
-    background-image: linear-gradient(rgb(0, 0, 0, 0.7), #040404), url(contact.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.contact {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-}
-
-form {
-    width: 90%;
-    max-width: 600px;
-}
-
-.input-group {
-    margin-bottom: 35px;
-    position: relative;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border: 1px solid white;
-    background: transparent;
-    font-size: 18px;
-    color: white;
-    /* border-radius: 30px; */
-}
-
-label {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
-    color: yellow;
-    cursor: text;
-    transition: 0.3s;
-}
-
-label i {
-    color: #48f000;
-}
-
 button {
     padding: 10px 0;
     color: white;
@@ -629,23 +630,7 @@ button:hover {
     font-weight: 600;
 }
 
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label {
-    top: -35px;
-    font-size: 14px;
-}
 
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.row .input-group {
-    flex-basis: 48%;
-}
 
 
 #footer {
@@ -786,16 +771,39 @@ textarea:valid~label {
         margin: 30px auto;
     }
 
-    .projects {
-        flex-basis: 45%;
-    }
-
-    .projects:hover .projects-text {
-        bottom: 35%;
-    }
 
     .footer-icon a {
         font-size: 20px;
+    }
+
+    .project-text {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+
+    .project-text h2 {
+        font-size: 35px;
+        font-family: 'Sofia',
+            cursive;
+
+    }
+
+    .project-text h3 {
+        font-size: 23px;
+        margin: 20px 0px;
+
+    }
+
+    .project-text p {
+        font-size: 16px;
+        margin: 10px 0px;
+        text-align: left;
+        line-height: 30px;
+        margin-left: 40px;
+    }
+
+    .project-img {
+        flex-basis: 100%;
     }
 
 }
@@ -890,23 +898,6 @@ textarea:valid~label {
         cursor: pointer;
     }
 
-    .projects {
-        flex-basis: 85%;
-        margin-bottom: 35px;
-    }
-
-    .projects:hover .projects-text {
-        bottom: 35%;
-    }
-
-    .projects h4 {
-        font-size: 22px;
-    }
-
-    .projects i {
-        font-size: 20px;
-    }
-
     .footer-content-text h2 {
         font-size: 1.6rem;
     }
@@ -946,6 +937,35 @@ textarea:valid~label {
     .footer-down {
         font-size: 1rem;
     }
+
+    .project-text {
+        flex-basis: 100%;
+    }
+
+    .project-text h2 {
+        font-size: 35px;
+        font-family: 'Sofia',
+            cursive;
+
+    }
+
+    .project-text h3 {
+        font-size: 23px;
+        margin: 20px 0px;
+
+    }
+
+    .project-text p {
+        font-size: 16px;
+        text-align: left;
+        line-height: 30px;
+        margin-left: 40px;
+    }
+
+    .project-img {
+        flex-basis: 100%;
+    }
+
 }
 
 @media screen and (max-width:400px) {
@@ -1043,23 +1063,6 @@ textarea:valid~label {
 
     .reviews-box {
         width: auto;
-    }
-
-    .projects {
-        flex-basis: 88%;
-        margin-bottom: 35px;
-    }
-
-    .projects:hover .projects-text {
-        bottom: 30%;
-    }
-
-    .projects h4 {
-        font-size: 20px;
-    }
-
-    .projects i {
-        font-size: 18px;
     }
 
     .footer-content-text h2 {
