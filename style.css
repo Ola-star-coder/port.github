@@ -355,7 +355,7 @@ body {
 
 .project button {
     margin-left: 30px;
-    width: 90%;
+    width: 80%;
     border: 1px solid #48f000;
 }
 
@@ -367,7 +367,7 @@ body {
 
 .project-text h3 {
     font-size: 27px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .project-text p {
@@ -384,9 +384,8 @@ body {
 
 .project-img img {
     width: 100%;
-    padding: 40px 0px;
     cursor: pointer;
-    border: 6px solid rgb(29, 23, 23);
+    border: 6px solid rgb(52, 27, 27);
 }
 
 #billing {
@@ -860,6 +859,13 @@ button:hover {
         letter-spacing: 2px;
         line-height: 20px;
         text-align: center;
+    }
+
+
+    .project button {
+        margin-left: auto;
+        width: 100%;
+        border: 1px solid #48f000;
     }
 
     .container-btn a {
